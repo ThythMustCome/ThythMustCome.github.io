@@ -1,1 +1,55 @@
-<p> Is this working </p>
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Times New Roman', Serif;
+text-align: center;
+}  
+  
+#settings-image {
+  width: 100px;  /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  float: right; /* align the image to the top right */
+}
+
+#logo {
+  width: 140px;  /* Set the desired width */
+  height: 140px; /* Set the desired height */
+  float: left; /* align the image to the top right */
+}
+
+body {
+  background-color: #a6abd3;
+}
+
+#placeholder {
+ margin-top: 600px;
+  width: 450px;
+  height: auto;
+  float: left;
+}
+
+#placeholder1 {
+ margin-top: 600px;
+  width: 450px;
+  height: auto;
+  float:centre;
+}
+
+#placeholder2 {
+ margin-top: 600px;
+  width: 450px;
+  height: auto;
+  float:right;
+}
+
+/* Notes
+Font for headins = Times New Roman (Serif)
+Font for text = font-family: 'Comic Sans MS', Cursive;
+Add background color to body 
+ Add font color to heading and paragraphs 
+ Link the style.css to the HTML
+ Align text to desired potition Centre right left */
+
